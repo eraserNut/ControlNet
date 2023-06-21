@@ -33,3 +33,4 @@ trainer = pl.Trainer(gpus=1, precision=32, callbacks=[logger])
 
 # Train!
 trainer.fit(model, dataloader)
+print("hhhh")
